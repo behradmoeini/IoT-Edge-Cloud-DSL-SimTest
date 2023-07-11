@@ -15,24 +15,44 @@ The industrial use case that motivates IoTECS is ensuring the scalability of clo
 .
 ├── baselines
 │   ├── JMeter
-│       ├── JMeter files
+│       ├── Stores files for the JMeter load testing simulation
 │   ├── Locust
-│       ├── Locust files
-├── scripts
-│       ├── scripts
+│       ├── Stores files for the Locust load testing simulation
 ├── IoTECS
-│   ├── IoTECS directories
+│   ├── This is the core directory for the IoTECS simulator.
+├── figs
+│   ├── This directory stores images used in the study
 
 ```
 
-The directories serve the following purposes:
+### Baselines
 
-- `baselines`: Hosts benchmark load testing simulators employed in the comparative analysis of this study.
-  - `JMeter`: Contains files pertaining to JMeter, an established load testing tool used as a reference point in this research.
-  - `Locust`: Holds files related to Locust, another well-recognized load testing tool included for comparative evaluation.
-- `scripts`: Contains the executable scripts designed to generate the empirical results presented in the study.
-- `IoTECS`: Encompasses the directories and files that constitute IoTECS, the simulator proposed and evaluated in this research paper.
+This directory contains benchmark load testing simulators used in the comparative analysis.
 
+- `JMeter`: Houses files for the JMeter load testing tool.
+- `Locust`: Stores files for the Locust load testing tool.
+
+### IoTECS
+
+This is the core directory for the IoTECS simulator.
+
+- `iotecs.ui`: Contains user interface files for the IoTECS simulator.
+- `iotecs`: Holds the main codebase for the IoTECS simulator.
+- `iotecs.ui.tests`: Includes testing scripts for the IoTECS user interface.
+- `iotecs.tests`: Encompasses testing scripts for the IoTECS simulator codebase.
+- `iotecs.ide`: Houses files for the Integrated Development Environment (IDE) configuration.
+
+### Figs
+
+
+
+### Results
+
+This directory holds results of the experiments.
+
+- `RQ3_AvgPacketDrop_TransmissionTime_Results`: Contains results for research question 3.
+- `RQ1_AvgPacketDrop_TransmissionTime_Baselines_Results`: Holds results for research question 1.
+- `RQ2_StressTestingCVS_Results`: Stores results for research question 2.
 ## Prerequisites
 
 Before starting, ensure your system has these tools installed:
