@@ -1,12 +1,12 @@
 # A Domain-Specific Language for Simulation-Based Testing of IoT Edge-to-Cloud Solutions
 
-This repository contains the code and results used in the paper "A Domain-Specific Language for Simulation-Based Testing of IoT Edge-to-Cloud Solutions". This paper introduces a domain-specific language (DSL), IoTECS, designed for creating edge-to-cloud simulators, imperative in testing IoT systems for applications like smart cities or autonomous vehicles. Developed in conjunction with IoT analytics firm Cheetah Networks, the language aims to validate the scalability of cloud applications under heavy IoT device loads. Implemented using Xtext, IoTECS`s utility is empirically evaluated, and the paper also presents reflections on the findings.
+This repository contains the code and results used in the paper "A Domain-Specific Language for Simulation-Based Testing of IoT Edge-to-Cloud Solutions". This paper introduces a domain-specific language (DSL), IoTECS, designed for creating edge-to-cloud simulators, imperative in testing IoT systems for applications like smart cities or autonomous vehicles. Developed in conjunction with IoT analytics firm Cheetah Networks, the language aims to validate the scalability of cloud applications under heavy IoT device loads. 
 
 ![Edge to Cloud Communication Diagram](figs/EdgeToCloudCommunication.jpg)
 
 ## Abstract
 
-The Internet of things (IoT) is increasingly prevalent in domains such as emergency response, smart cities and autonomous vehicles. Simulation plays a key role in the testing of IoT systems, noting that field testing of a complete IoT product may be infeasible or prohibitively expensive. In this paper, we propose a \emph{domain-specific language (DSL)} for generating edge-to-cloud simulators. An edge-to-cloud simulator executes the functionality of a large array of edge devices that communicate with cloud applications. Our DSL, named IoTECS, is the result of a collaborative project with an IoT analytics company, Cheetah Networks. 
+The Internet of Things (IoT) is increasingly prevalent in domains such as emergency response, smart cities and autonomous vehicles. Simulation plays a key role in the testing of IoT systems, noting that field testing of a complete IoT product may be infeasible or prohibitively expensive. In this paper, we propose a \emph{domain-specific language (DSL)} for generating edge-to-cloud simulators. An edge-to-cloud simulator executes the functionality of a large array of edge devices that communicate with cloud applications. Our DSL, named IoTECS, is the result of a collaborative project with an IoT analytics company, Cheetah Networks. 
 The industrial use case that motivates IoTECS is ensuring the scalability of cloud applications by putting them under extreme loads from IoT devices connected to the edge. We implement IoTECS using Xtext and empirically evaluate its usefulness. We further reflect on the lessons learned.
 
 ## Directory Structure
@@ -28,8 +28,8 @@ The industrial use case that motivates IoTECS is ensuring the scalability of clo
 The directories serve the following purposes:
 
 - `baselines`: Hosts benchmark load testing simulators employed in the comparative analysis of this study.
-- `JMeter`: Contains files pertaining to JMeter, an established load testing tool used as a reference point in this research.
-- `Locust`: Holds files related to Locust, another well-recognized load testing tool included for comparative evaluation.
+  - `JMeter`: Contains files pertaining to JMeter, an established load testing tool used as a reference point in this research.
+  - `Locust`: Holds files related to Locust, another well-recognized load testing tool included for comparative evaluation.
 - `scripts`: Contains the executable scripts designed to generate the empirical results presented in the study.
 - `IoTECS`: Encompasses the directories and files that constitute IoTECS, the simulator proposed and evaluated in this research paper.
 
