@@ -12,7 +12,6 @@ The industrial use case that motivates IoTECS is ensuring the scalability of clo
 ## Directory Structure
 
 ```bash
-.
 ├── baselines
 │   ├── JMeter
 │       ├── Stores files for the JMeter load testing simulation
