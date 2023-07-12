@@ -1,0 +1,67 @@
+Simulator: {
+	duration:10s
+	step:1s 
+	simulationNodes:{SN1[5],SN2[1]}
+}
+ 
+// platform 
+Platform: P1{
+	type: Native 
+	networkAdapter:"en0"
+} 
+Platform: P2{
+	type: Docker
+	networkAdapter:"en0"
+	locationIP:192.168.0.4
+	userName:user2
+	password:"password2"
+	cpu:4
+	memory:2G
+} 
+
+//SimulationNodes
+SimulationNode: SN1 
+{	platform:P1
+	EdgeDevices:{E1[7],E2[3]} 
+}
+
+SimulationNode: SN2 {
+	platform:P1 
+	EdgeDevices:{E1[30]}
+} 
+//SuperAgents
+EdgeDevice: E1 { 
+	protocol:UDP 
+	speed:Max 
+	cloud:C1
+	workload: 0s
+	devices:{D1[100]}
+}
+EdgeDevice: E2 {
+	protocol:UDP
+	speed:100
+	cloud:C2
+	workload: 20ms
+	devices:{D1[10],D2[20]} 
+} 
+
+//Cloud
+Cloud: C1 { 
+	ip: 192.168.0.2
+	port: 1883
+} 
+
+Cloud: C2 { 
+	ip: 192.168.0.3
+	port: 2605
+}
+//Agents
+Device: D1 { 
+	period:1
+	payload:60b
+}
+ 
+Device: D2 {
+	period:2 
+	payload:100b
+}
