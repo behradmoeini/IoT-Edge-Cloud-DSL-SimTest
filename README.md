@@ -28,6 +28,7 @@ The industrial use case that motivates IoTECS is ensuring the scalability of clo
 │   ├── This directory stores images used in the study
 ├── results
 │   ├── Contains results for research question 1, 2, and 3
+└──
 
 
 ```
