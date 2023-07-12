@@ -68,4 +68,27 @@ Follow these steps to perform simulation-based testing for IoT Cloud application
 9. Install OpenSSH and ensure that localhost, Platforms, and SimulationNodes can communicate using ssh and scp.
 10. Navigate to the generated directory of the IoTECS project (`src-gen/`) and run `main.sh`.
 
-Ensure you follow the steps in the provided order for successful setup and execution of your IoT Cloud applications with IoTECS.
+## Running Baselines
+
+This repository includes the necessary files to run simulations with JMeter and Locust, two popular stress testing tools. These simulations can be used for comparative evaluation with the IoTECS simulator.
+
+### Running JMeter Simulation
+
+The `baselines/JMeter` directory contains a JMeter test plan file (.jmx). To run this test plan, follow these steps:
+
+1. Open JMeter: Open your command line interface, navigate to your JMeter bin directory, and start JMeter. On many systems, you can do this with the command `./jmeter`.
+2. Open the Test Plan: In the JMeter GUI, go to `File > Open` and navigate to the `baselines/JMeter` directory in this repository. Select the `.jmx` file to open it.
+3. Run the Test Plan: Click the "Start" button (green play symbol) in the JMeter GUI. JMeter will begin running the test plan.
+4. View Results: After the test plan has been completed, you can view the results in the `Summary Report` or `Aggregate Report` section of the JMeter GUI.
+
+### Running Locust Simulation
+
+The `baselines/Locust` directory contains a Python script (`locustfile.py`) for running a Locust simulation. Here are the steps to run the simulation:
+
+1. Open your command line interface and navigate to the `baselines/Locust` directory in this repository.
+2. Run the Locust file with the following command: `locust -f locustfile.py`. This command starts the Locust master process.
+3. Open a web browser and go to `http://localhost:8089`. This opens the Locust web interface.
+4. Enter the number of users to simulate, the hatch rate (users to start per second), and the host to test. Then, click "Start swarming" to begin the test.
+5. View Results: The Locust web interface updates in real-time with the test results.
+
+Ensure you follow the steps in the provided order for the successful setup and execution of your IoT Cloud applications with IoTECS.
