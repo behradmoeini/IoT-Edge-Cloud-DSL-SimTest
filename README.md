@@ -1,6 +1,6 @@
 # A Domain-Specific Language for Simulation-Based Testing of IoT Edge-to-Cloud Solutions
 
-This repository hosts the `A Domain-Specific Language for Simulation-Based Testing of IoT Edge-to-Cloud Solutions` project. The main focus of the project is the `IoTECS` domain-specific language (DSL) designed to simulate edge-to-cloud interactions for testing IoT systems. 
+This repository hosts the `A Domain-Specific Language for Simulation-Based Testing of IoT Edge-to-Cloud Solutions` paper. The main focus of the project is the `IoTECS` domain-specific language (DSL) designed to simulate edge-to-cloud interactions for testing IoT systems. 
 
 The repository contains the complete `IoTECS` DSL codebase, including user interface files, testing scripts, and configuration files. It also includes the results of various experiments conducted as part of the project, stored in the `results` directory.
 
