@@ -1,12 +1,10 @@
 # A Domain-Specific Language for Simulation-Based Testing of IoT Edge-to-Cloud Solutions
 
-This repository is dedicated to the `A Domain-Specific Language for Simulation-Based Testing of IoT Edge-to-Cloud Solutions` project. The project involves the development and testing of `IoTECS`, a domain-specific language (DSL) designed for creating edge-to-cloud simulators, which are critical in testing IoT systems for applications such as smart cities or autonomous vehicles.
+This repository hosts the `A Domain-Specific Language for Simulation-Based Testing of IoT Edge-to-Cloud Solutions` project. The main focus of the project is the `IoTECS` domain-specific language (DSL) designed to simulate edge-to-cloud interactions for testing IoT systems. 
 
-The `IoTECS` DSL is developed with the aim to validate the scalability of cloud applications under heavy IoT device loads. This repository contains all the necessary code and scripts for the `IoTECS` DSL, including user interface files, the main codebase, testing scripts, and Integrated Development Environment (IDE) configuration files.
+The repository contains the complete `IoTECS` DSL codebase, including user interface files, testing scripts, and configuration files. It also includes the results of various experiments conducted as part of the project, stored in the `results` directory.
 
-The repository also includes the results of various experiments conducted as part of the project. These results are stored in the `results` directory.
-
-In addition, this repository includes files related to `JMeter` and `Locust`, two popular stress testing tools. These tools were used to simulate experiments, and their results are compared with our `IoTECS` simulator. The files related to these tools can be found in the `baselines` directory, each in their respective subdirectories.
+Additionally, the repository contains configuration files related to `JMeter` and `Locust`, popular stress testing tools used in the project for comparative evaluation against the `IoTECS` simulator. The files pertaining to these tools are located in the `baselines` directory.
 
 
 ![Edge to Cloud Communication Diagram](figs/EdgeToCloudCommunication.jpg)
