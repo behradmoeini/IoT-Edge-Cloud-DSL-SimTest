@@ -1,6 +1,13 @@
 # A Domain-Specific Language for Simulation-Based Testing of IoT Edge-to-Cloud Solutions
 
-This repository contains the code and results used in the paper "A Domain-Specific Language for Simulation-Based Testing of IoT Edge-to-Cloud Solutions". This paper introduces a domain-specific language (DSL), IoTECS, designed for creating edge-to-cloud simulators, imperative in testing IoT systems for applications like smart cities or autonomous vehicles. Developed in conjunction with IoT analytics firm Cheetah Networks, the language aims to validate the scalability of cloud applications under heavy IoT device loads. 
+This repository is dedicated to the `IoT-Edge-Cloud-DSL-SimTest` project. The project involves the development and testing of `IoTECS`, a domain-specific language (DSL) designed for creating edge-to-cloud simulators, which are critical in testing IoT systems for applications such as smart cities or autonomous vehicles.
+
+The `IoTECS` DSL is developed with the aim to validate the scalability of cloud applications under heavy IoT device loads. This repository contains all the necessary code and scripts for the `IoTECS` DSL, including user interface files, the main codebase, testing scripts, and Integrated Development Environment (IDE) configuration files.
+
+The repository also includes the results of various experiments conducted as part of the project. These results are stored in the `results` directory.
+
+In addition, this repository includes files related to `JMeter` and `Locust`, two popular stress testing tools. These tools were used to simulate experiments, and their results are compared with our `IoTECS` simulator. The files related to these tools can be found in the `baselines` directory, each in their respective subdirectories.
+
 
 ![Edge to Cloud Communication Diagram](figs/EdgeToCloudCommunication.jpg)
 
