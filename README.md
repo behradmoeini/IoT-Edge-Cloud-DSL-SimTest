@@ -44,10 +44,15 @@ Before starting, ensure your system has these tools installed:
 - Docker 20.10.11
 - Xtext 2.25.0 ([Download](https://www.eclipse.org/Xtext/))
 - Xtend 2.25.0 ([Download](https://www.eclipse.org/Xtend/))
-- Ubuntu 20.04 disc image ([Download](https://ubuntu.com/download/desktop))
+- Ubuntu 20.04 disc image ([Download](https://ubuntu.com/download/desktop/))
 - TShark (Wireshark) 3.4.9
 - Python 3.8.8
 - SSH
+- JMeter ([Download](https://jmeter.apache.org/))
+- Locust ([Download](https://locust.io/))
+
+Please refer to the official documentation for JMeter and Locust for installation instructions.
+
 
 ## Installation and Running Steps
 
