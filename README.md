@@ -50,8 +50,6 @@ Before starting, ensure your system has these tools installed:
 - JMeter ([Download](https://jmeter.apache.org/))
 - Locust ([Download](https://locust.io/))
 
-Please refer to the official documentation for JMeter and Locust for installation instructions.
-
 
 ## Installation and Running Steps
 
@@ -90,5 +88,3 @@ The `baselines/Locust` directory contains a Python script (`locustfile.py`) for 
 3. Open a web browser and go to `http://localhost:8089`. This opens the Locust web interface.
 4. Enter the number of users to simulate, the hatch rate (users to start per second), and the host to test. Then, click "Start swarming" to begin the test.
 5. View Results: The Locust web interface updates in real-time with the test results.
-
-Ensure you follow the steps in the provided order for the successful setup and execution of your IoT Cloud applications with IoTECS.
