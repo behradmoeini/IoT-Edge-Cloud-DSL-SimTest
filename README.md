@@ -61,7 +61,7 @@ Follow these steps to perform simulation-based testing for IoT Cloud application
 4. Launch the DSL project (`iotecs`) as "Eclipse Applications", choosing to launch "Runtime Eclipse".
 5. Create Ubuntu 20.04 virtual machines (via Virtual Box) for each platform of type "VM".
 6. Install Python, JDK, and TShark on both the local machine and all remote platforms.
-7. In the runtime Eclipse Platform, create a new Java project and a new file with an "iot" extension (e.g., `test.iot`). If asked to convert 'test' to an Xtext project, select "yes". Input the specific instance of the conceptual model for IoTECS according to the grammar or use the provided demonstration IoTECS project and modify it as necessary.
+7. In the runtime Eclipse Platform, create a new Java project and a new file with an "iot" extension (e.g., `Demonstration/test.iot`). If asked to convert 'test' to an Xtext project, select "yes". Input the specific instance of the conceptual model for IoTECS according to the grammar or use the provided demonstration IoTECS project and modify it as necessary.
 8. Save the file created in step 7. This will generate code and scripts in the "src-gen" directory of the project (e.g., `test->src-gen`).
 9. Install OpenSSH and ensure that localhost, Platforms, and SimulationNodes can communicate using ssh and scp.
 10. Navigate to the generated directory of the IoTECS project (`src-gen/`) and run `main.sh`.
