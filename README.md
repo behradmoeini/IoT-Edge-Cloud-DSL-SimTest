@@ -7,7 +7,7 @@ The repository contains the complete `IoTECS` DSL codebase, including user inter
 Additionally, the repository contains configuration files related to `JMeter` and `Locust`, popular stress testing tools used in the project for comparative evaluation against the `IoTECS` simulator. The files pertaining to these tools are located in the `baselines` directory.
 
 
-![Edge to Cloud Communication Diagram](figs/classDiagram.jpeg)
+![Edge to Cloud Communication Diagram](figs/classDiagram.jpg)
 
 ## Abstract
 
