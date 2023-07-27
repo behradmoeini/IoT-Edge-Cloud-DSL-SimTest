@@ -35,7 +35,7 @@ The industrial use case that motivates IoTECS is ensuring the scalability of clo
 
 ## Prerequisites
 
-Before starting, ensure your system has these tools installed:
+Before starting, please make sure that the following tools have already been installed:
 
 - Eclipse 2021-12
 - JDK 11
@@ -68,9 +68,9 @@ Follow these steps to perform simulation-based testing for IoT Cloud application
 
 ## Running Baselines
 
-This repository includes the necessary files to run simulations with JMeter and Locust, two popular stress testing tools. These simulations can be used for comparative evaluation with the IoTECS simulator.
+This repository includes the necessary files to run simulations with JMeter and Locust, two popular stress testing tools. We use these two tools as baselines for comparative evaluation with IoTECS.
 
-### Running Stress Testing Using JMeter
+###  Stress Testing Using JMeter
 
 The `baselines/JMeter` directory contains a JMeter test plan file (.jmx). To run this test plan, follow these steps:
 
@@ -79,9 +79,9 @@ The `baselines/JMeter` directory contains a JMeter test plan file (.jmx). To run
 3. Run the Test Plan: Click the "Start" button (green play symbol) in the JMeter GUI. JMeter will begin running the test plan.
 4. View Results: After the test plan has been completed, you can view the results in the `Summary Report` or `Aggregate Report` section of the JMeter GUI.
 
-### Running Stress Testing Using Locust
+###  Stress Testing Using Locust
 
-The `baselines/Locust` directory contains a Python script (`locustfile.py`) for running a Locust simulation. Here are the steps to run the simulation:
+The `baselines/Locust` directory contains a Python script (`locustfile.py`). Below are the steps to run a Locust simulation:
 
 1. Open your command line interface and navigate to the `baselines/Locust` directory in this repository.
 2. Run the Locust file with the following command: `locust -f locustfile.py`. This command starts the Locust master process.
