@@ -19,15 +19,15 @@ The industrial use case that motivates IoTECS is ensuring the scalability of clo
 ```bash
 ├── baselines
 │   ├── JMeter
-│       ├── Stores files for the JMeter load testing simulation
+│       ├── Stores files for the JMeter stress testing simulation.
 │   ├── Locust
-│       ├── Stores files for the Locust load testing simulation
+│       ├── Stores files for the Locust stress testing simulation.
 ├── IoTECS
 │   ├── This is the core directory for the IoTECS simulator.
 ├── figs
-│   ├── This directory stores images used in the study
+│   ├── This directory stores images used in the study.
 ├── results
-│   ├── Contains results for research question 1, 2, and 3
+│   ├── Contains results for research question 1, 2, 3 and 4.
 └──
 
 
